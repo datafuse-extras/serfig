@@ -11,10 +11,10 @@ version = "0.1.0"
 
 [dependencies]
 serde = "1"
-serde-bridge = "0.0.3"
-serde-env = "0.1"
+serde-bridge = { git = "https://github.com/datafuse-extras/serde-bridge", rev = "4f0e99a" }
+serde-env = { git = "https://github.com/datafuse-extras/serde-env", rev = "085d4b1" }
 anyhow = "1"
-indexmap = "1"
+indexmap = "2"
 toml = "0.7"
 log = "0.4"
 
